@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>PubkeyApp</title>
+  <title>Pubkey Key</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
@@ -10,11 +10,11 @@
 	<header class="navbar navbar-fixed-top navbar-inverse">
 		<div class="navbar-inner">
 			<div class="container">
-				<%= link_to "pubkey_app", '#', id: "logo"%>
+				<%= link_to "My Public Key", root_path, id: "logo"%>
 				<nav>
 					<ul class="nav pull-right">
-						<li><%= link_to "Home", 	'#' %></li>
-						<li><%= link_to "Help",		'#' %></li>
+						<li><%= link_to "Home",   root_path %></li>
+						<li><%= link_to "Help",		help_path %></li>
 					</ul>
 				</nav>
 			</div>
@@ -22,6 +22,7 @@
 	</header>
 	<div class="container">
 		<%= yield %>
+		<%= render 'layouts/footer' %>
 	</div>
 </body>
 </html>
