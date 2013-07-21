@@ -1,8 +1,9 @@
 source 'https://rubygems.org'
+# ruby '2.0.0'
 
-gem 'rails', '3.2.8'
-gem 'bootstrap-sass', '2.3.2.0'
-# gem 'bootstrap-sass', '2.1'
+gem 'rails', '3.2.3'
+# gem 'bootstrap-sass', '2.3.2.0'
+gem 'bootstrap-sass', '2.1'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
