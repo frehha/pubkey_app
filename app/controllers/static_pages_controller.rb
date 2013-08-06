@@ -12,4 +12,8 @@ class StaticPagesController < ApplicationController
 	def contact
 	end
 
+#	def download
+#		File.new "out.txt", "w"
+#	end
+
 end
